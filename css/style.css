@@ -1,5 +1,8 @@
 .header-container {
     height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .background video {
@@ -8,8 +11,8 @@
     left: 0;
     top: 0;
     overflow: hidden;
-    position: fixed;
-    background: #D1E3DD;
+    position: absolute;
+    background: white;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,33 +22,41 @@
     body { background-size: auto; }
 }
 
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo img{
     height: 180px;
     width: 250px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 300px;
 }
 
-.enter-competition a {
-    height: 180px;
-    width: 250px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 300px;
+.details-btn {
+    color: white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    background: #C5A557;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
 }
+
+.details-btn:hover {
+    background: #C5A557;
+    color: white;
+  }
 
 .about-container {
     height:100vh;
-    position: absolute;
+    background: white;
+    
 }
 
 .title h1 {
     color: black;
-    z-index: 1;
-    position:relative;
+    
 }
