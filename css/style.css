@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
 .header-container {
     height:100vh;
     display: flex;
@@ -48,15 +54,81 @@
 .details-btn:hover {
     background: #C5A557;
     color: white;
+    padding: 25px;
   }
 
 .about-container {
     height:100vh;
-    background: white;
+    /* background: #C7D5C4; */
     
 }
 
 .title h1 {
-    color: black;
+    color: grey;
+    font-size: 40px;
+    text-align-last: center;
+    font-family: 'Dosis', sans-serif;
+    padding: 30px;
     
 }
+
+.title h2 {
+    text-align-last: center;  
+    font-family: 'Dosis', sans-serif;
+    padding: 30px;
+}
+
+.title p {
+    text-align-last: center;  
+    font-family: 'Dosis', sans-serif;
+    padding: 30px;
+}
+
+.about-images {
+    display: flex;
+    flex-direction: row;
+}
+
+.middle-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.about-image {
+    background-color: #C5A557;
+    margin: 30px;
+    width: 33.3%;
+    height: auto;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: #C5A557;
+  }
+  
+  .about-images:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .image-text {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
