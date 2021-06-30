@@ -82,15 +82,25 @@
     padding: 30px;
 }
 
-.title p {
-    text-align-last: center;  
+.about-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.about-text {
+    margin: 30px;
+    width: 25%;
+    height: auto;
     font-family: 'Dosis', sans-serif;
-    padding: 30px;
+    text-align: center;
 }
 
 .about-images {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .middle-image {
@@ -102,7 +112,7 @@
 .about-image {
     background-color: #C5A557;
     margin: 30px;
-    width: 33.3%;
+    width: 25%;
     height: auto;
     position: relative;
 }
@@ -137,19 +147,34 @@
     text-align: center;
   }
 
+  .about-bottom {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-bottom p {
+    text-align-last: center;  
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    padding: 20px;
+    color:grey;
+  }
+
   .about-bottom h6 {
     text-align-last: center;  
     font-family: 'Dosis', sans-serif;
-    padding: 30px;
+    font-size: 16px;
+    padding: 20px;
     color:grey;
   }
 
   .gallery-container {
-    height:100vh;
+    padding: 150px;
   }
 
   .swiper-container {
-    display: flex;
     width: 800px;
     height: 600px;
   }
