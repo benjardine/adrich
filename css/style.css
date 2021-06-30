@@ -1,8 +1,11 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     border: 0;
-  }
+  } */
+  * {
+    box-sizing:border-box;
+      }
 
 .header-container {
     height:100vh;
@@ -174,4 +177,23 @@
     font-family: 'Dosis', sans-serif;
     padding: 30px;
     margin-bottom: 100px;
+  }
+
+  .form-control {
+
+  }
+  
+  input[type=text] {
+    padding:10px;
+    margin:10px 0; // add top and bottom margin
+    border:0;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 100%;
+  }
+
+  input, textarea {
+    font-family:inherit;
+    font-size: inherit;
   }
