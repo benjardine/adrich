@@ -62,9 +62,13 @@
   }
 
 .about-container {
-    height:100vh;
-    /* background: #C7D5C4; */
     
+}
+
+.title-underline {
+    width: 900px;
+    border-bottom: 1px solid grey;
+    margin: auto;
 }
 
 .title h1 {
@@ -72,8 +76,7 @@
     font-size: 40px;
     text-align-last: center;
     font-family: 'Dosis', sans-serif;
-    padding: 30px;
-    
+    padding: 60px;
 }
 
 .title h2 {
@@ -126,7 +129,7 @@
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: 1s ease;
+    transition: 1.5s ease;
     background-color: #C5A557;
   }
   
@@ -137,7 +140,8 @@
   
   .image-text {
     color: white;
-    font-size: 10px;
+    font-size: 14px;
+    font-family: 'Dosis', sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -171,7 +175,11 @@
   }
 
   .gallery-container {
-    padding: 150px;
+    padding: 80px 80px 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .swiper-container {
