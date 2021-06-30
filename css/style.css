@@ -164,6 +164,9 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      background-image: url("../images/hero_image.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
   }
 
   .competition-header h1{
@@ -179,8 +182,15 @@
     margin-bottom: 100px;
   }
 
-  .form-control {
-
+  .form-button {
+    padding:10px;
+    margin:10px;
+    border:none;
+    background-color:#C5A557;
+    color:#fff;
+    font-weight:600;
+    border-radius:5px;
+    width:80%;
   }
   
   input[type=text] {
