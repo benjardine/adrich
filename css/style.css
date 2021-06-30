@@ -155,3 +155,23 @@
     width: 100%;
     height: auto;
   }
+
+  .competition {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .competition-header h1{
+    text-align-last: center;  
+    font-family: 'Dosis', sans-serif;
+    padding: 30px;
+  }
+
+  .competition-form {
+    text-align-last: center;  
+    font-family: 'Dosis', sans-serif;
+    padding: 30px;
+    margin-bottom: 100px;
+  }

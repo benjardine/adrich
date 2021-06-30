@@ -113,7 +113,7 @@
 
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  
+
   <!-- JS FOR SWIPER -->
   <script>
     const swiper = new Swiper('.swiper-container', {
@@ -129,9 +129,38 @@
     });
   </script>
 
-  <div id="competition">
-    <h1>form to enter contest</h1>
+
+  <div class="competition">
+    <div class="competition-header">
+      <h1>Win a week for two in paradise</h1>
+    </div>
+    <div class="competition-form">
+      <form action="/my-handling-form-page" method="post">
+        <div>First name<br/>
+          <input type="text" class="form-control"/>
+        </div>
+        <div>Last name<br/>
+          <input type="text" class="form-control"/>
+        </div>
+        <div>Address<br/>
+        <input type="text" class="form-control"/>
+        </div>
+        <div>Postcode<br/>
+        <input type="text" class="form-control"/>
+        </div>
+        <div>Email<br/>
+        <input type="text" class="form-control"/>
+        </div>
+        <div><input type="checkbox"value="I have read and accept the Terms and Conditions for this prize draw."/> I have read and accept the Terms and Conditions for this prize draw.</span><br/>
+        </div>
+        <div><input value="Submit" type="submit"/></div>
+        <div>
+        
+      </form>
+    </div>
   </div>
+
+  
 
 
 </body>
