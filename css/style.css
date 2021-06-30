@@ -132,3 +132,15 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  .about-bottom h6 {
+    text-align-last: center;  
+    font-family: 'Dosis', sans-serif;
+    padding: 30px;
+    color:grey;
+  }
+
+  .swiper-container {
+    width: 600px;
+    height: 300px;
+  }
