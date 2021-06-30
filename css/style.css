@@ -140,9 +140,14 @@
     color:grey;
   }
 
+  .gallery-container {
+    height:100vh;
+  }
+
   .swiper-container {
-    width: 600px;
-    height: 400px;
+    display: flex;
+    width: 800px;
+    height: 600px;
   }
 
   .swiper-slide img{
