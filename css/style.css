@@ -284,9 +284,35 @@
     font-size: inherit;
   }
 
+  .footer-container {
+    background-color: #C5A557;
+  }
+
   .footer {
       background-color: #C5A557;
       width: 100vw;
       color: white;
       padding: 30px 0px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .footer-icon a{
+      color: white;
+      padding:15px;
+      font-size: 20px;
+      
+  }
+
+  .footer-copyright i{
+        color: white;
+        padding:15px;
+        font-size: 20px;
+        margin: auto;
+  }
+
+  .footer-copyright {
+      
   }
