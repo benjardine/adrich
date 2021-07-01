@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/benjardine/adrich/issues"
   },
-  "homepage": "https://github.com/benjardine/adrich#readme"
+  "homepage": "https://github.com/benjardine/adrich#readme",
+
+"scripts": {
+  "start": "node your-script.js"
+}
 }
