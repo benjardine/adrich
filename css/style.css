@@ -57,24 +57,23 @@
 
 .details-btn {
     color: white;
-    padding: 8px 24px;
+    padding: 10px 28px;
     border-radius: 4px;
     background: #C5A557;
     transition: background 0.3s ease;
     text-decoration: none;
     font-family: 'Dosis', sans-serif;
     font-weight: bold;
+    font-family: 'caviar_dreams';
 }
 
 .details-btn:hover {
-    background: #C5A557;
-    color: white;
-    padding: 25px;
+    background: white;
+    color: #C5A557;
+    transition: 1s ease;
+    font-size: larger;
   }
 
-.about-container {
-    
-}
 
 .title-underline {
     width: 80vw;
@@ -185,7 +184,7 @@
   .about-bottom p {
     text-align-last: center;  
     font-family: 'Dosis', sans-serif;
-    font-size: 1vw;
+    font-size: 14px;
     padding: 40px;
     color:grey;
     border-bottom: 1px solid #C5A557;
@@ -194,7 +193,7 @@
   .about-bottom h6 {
     text-align-last: center;  
     font-family: 'Dosis', sans-serif;
-    font-size: 1.2vw;
+    font-size: 18px;
     padding: 40px 40px 0 40px;
     color:grey;
   }
@@ -247,8 +246,8 @@
   .competition-header h2{
     text-align-last: center;  
     font-family: 'caviar_dreams';
-    font-size: 1vw;;
-    padding: 30px;
+    font-size: 14px;
+    padding: 60px;
     color: gray;
   }
 
@@ -284,3 +283,5 @@
     font-family:inherit;
     font-size: inherit;
   }
+
+  
