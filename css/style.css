@@ -284,4 +284,9 @@
     font-size: inherit;
   }
 
-  
+  .footer {
+      background-color: #C5A557;
+      width: 100vw;
+      color: white;
+      padding: 30px 0px;
+  }
