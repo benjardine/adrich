@@ -1,0 +1,19 @@
+{
+  "name": "adrich",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://benjardine: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@github.com/benjardine/adrich.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjardine/adrich/issues"
+  },
+  "homepage": "https://github.com/benjardine/adrich#readme"
+}
